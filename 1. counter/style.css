@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+  border-radius: 20px;
+  background: rgb(241, 223, 223);
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+p {
+  font-size: 28px;
+}
+
+button {
+  text-transform: capitalize;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: rgb(247, 147, 147);
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+}
+
+button:hover {
+  background: rgb(255, 121, 121);
+}
+
+button:active {
+  background: rgb(253, 103, 103);
+}
